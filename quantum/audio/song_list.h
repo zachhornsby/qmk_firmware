@@ -177,7 +177,15 @@
 #    define SONIC_RING
 #endif
 #ifndef ZELDA_PUZZLE
-#    define ZELDA_PUZZLE
+#    define ZELDA_PUZZLE \
+      Q__NOTE(_G5),     \
+      Q__NOTE(_FS5),    \
+      Q__NOTE(_DS5),     \
+      Q__NOTE(_A4),    \
+      Q__NOTE(_GS4),     \
+      Q__NOTE(_E5),     \
+      Q__NOTE(_GS5),     \
+      HD_NOTE(_C6),
 #endif
 #ifndef ZELDA_TREASURE
 #    define ZELDA_TREASURE
@@ -219,10 +227,36 @@
 #    define RICK_ROLL
 #endif
 #ifndef FF_PRELUDE
-#    define FF_PRELUDE
+#    define FF_PRELUDE \
+      M__NOTE(_C3, 20), M__NOTE(_D3, 20), M__NOTE(_E3, 20), M__NOTE(_G3, 20), \
+      M__NOTE(_C4, 20), M__NOTE(_D4, 20), M__NOTE(_E4, 20), M__NOTE(_G4, 20), \
+      M__NOTE(_C5, 20), M__NOTE(_D5, 20), M__NOTE(_E5, 20), M__NOTE(_G5, 20), \
+      M__NOTE(_C6, 20), M__NOTE(_D6, 20), M__NOTE(_E6, 20), M__NOTE(_G6, 20), \
+      M__NOTE(_C7, 20), M__NOTE(_G6, 20), M__NOTE(_E6, 20), M__NOTE(_D6, 20), \
+      M__NOTE(_C6, 20), M__NOTE(_G5, 20), M__NOTE(_E5, 20), M__NOTE(_D5, 20), \
+      M__NOTE(_C5, 20), M__NOTE(_G4, 20), M__NOTE(_E4, 20), M__NOTE(_D4, 20), \
+      M__NOTE(_C4, 20), M__NOTE(_G3, 20), M__NOTE(_E3, 20), M__NOTE(_D3, 20), \
+      M__NOTE(_A2, 20), M__NOTE(_B2, 20), M__NOTE(_C3, 20), M__NOTE(_E3, 20), \
+      M__NOTE(_A3, 20), M__NOTE(_B3, 20), M__NOTE(_C4, 20), M__NOTE(_E4, 20), \
+      M__NOTE(_A4, 20), M__NOTE(_B4, 20), M__NOTE(_C5, 20), M__NOTE(_E5, 20), \
+      M__NOTE(_A5, 20), M__NOTE(_B5, 20), M__NOTE(_C6, 20), M__NOTE(_E6, 20), \
+      M__NOTE(_A6, 20), M__NOTE(_E6, 20), M__NOTE(_C6, 20), M__NOTE(_B5, 20), \
+      M__NOTE(_A5, 20), M__NOTE(_E5, 20), M__NOTE(_C5, 20), M__NOTE(_B4, 20), \
+      M__NOTE(_A4, 20), M__NOTE(_E4, 20), M__NOTE(_C4, 20), M__NOTE(_B3, 20), \
+      M__NOTE(_A3, 20), M__NOTE(_E3, 20), M__NOTE(_C3, 20), M__NOTE(_B2, 20),
 #endif
 #ifndef TO_BOLDLY_GO
-#    define TO_BOLDLY_GO
+#    define TO_BOLDLY_GO \
+      W__NOTE(_BF3 ), \
+      Q__NOTE(_EF4 ), \
+      WD_NOTE(_AF4 ), \
+      W__NOTE(_REST), \
+      H__NOTE(_G4  ), \
+      Q__NOTE(_EF4 ), \
+      H__NOTE(_C4  ), \
+      W__NOTE(_REST), \
+      QD_NOTE(_F4  ), \
+      M__NOTE(_BF4, 128),
 #endif
 #ifndef KATAWARE_DOKI
 #    define KATAWARE_DOKI
